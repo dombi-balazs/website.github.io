@@ -1,0 +1,124 @@
+html {
+    background-color: white;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    scroll-behavior: smooth;
+    padding-right: 250px;
+    padding-left: 50px;
+}
+
+p {
+    padding-left: 50px;
+}
+
+h1 {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+h2 {
+    color: black;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #d2d2d2;
+}
+
+h3 {
+    color: black;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 50px
+}
+
+a {
+    text-decoration: none;
+    color: #0000ff;
+    border-radius: 2px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #0000ff;
+
+}
+
+.menulink {
+    background-color: #0067b8;
+    padding: 15px;
+    color: white;
+}
+
+.menulink:hover {
+    background-color: #005da5;
+    color: white;
+}
+
+.navitems {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navitem {
+    list-style-type: none;
+    transition: all 0.3s ease;
+    color: black;
+    margin: 10px;
+}
+
+.navitem:hover {
+    transition: all 0.3s ease;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+@media screen and (max-width:768px) {
+    html {
+        padding-right: 50px;
+        padding-left: 10px;
+    }
+
+    .navitems {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-left: 10px;
+    }
+
+    .navitem {
+        margin-bottom: 25px;
+    }
+
+    p {
+        padding-left: 10px;
+    }
+
+    h1 {
+        margin-left: 10px;
+        padding: 0px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    h2 {
+        margin-left: 10px
+    }
+
+    h3 {
+        margin-left: 10px
+    }
+}
