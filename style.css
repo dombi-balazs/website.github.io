@@ -13,17 +13,12 @@ p {
 
 h1 {
     color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 20px;
+    text-align: center;
 }
 
 h2 {
     color: black;
-    display: flex;
-    justify-content: left;
-    align-items: center;
     margin-left: 50px;
     margin-top: 50px;
     padding-top: 20px;
@@ -32,9 +27,6 @@ h2 {
 
 h3 {
     color: black;
-    display: flex;
-    justify-content: left;
-    align-items: center;
     margin-left: 50px
 }
 
@@ -126,4 +118,25 @@ li {
     h3 {
         margin-left: 10px
     }
+}
+
+.footerbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#backtotopbutton {
+    max-width: 100px;
+    margin-bottom: 10px;
+    background-color: #d9d9d9;
+    border-radius: 1px solid black;
+    padding: 10px;
+    color: black
+}
+
+#backtotopbutton:hover {
+    background-color: #ffffff;
+    text-decoration: none;
 }
