@@ -1,7 +1,7 @@
 html {
     background-color: white;
     color: black;
-    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-family: "Noto Sans", Tahoma, sans-serif;
     scroll-behavior: smooth;
     padding-right: 250px;
     padding-left: 50px;
@@ -45,7 +45,7 @@ a {
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: underline;
     color: #0000ff;
 
 }
@@ -59,6 +59,7 @@ a:hover {
 .menulink:hover {
     background-color: #005da5;
     color: white;
+    text-decoration: none;
 }
 
 .navitems {
@@ -83,6 +84,10 @@ footer {
     justify-content: center;
     background-color: #f2f2f2;
     padding: 10px;
+}
+
+li { 
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width:768px) {
