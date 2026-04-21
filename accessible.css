@@ -1,0 +1,153 @@
+html {
+    background-color: black;
+    color: yellow;
+    font-family: "Noto Sans", Tahoma, sans-serif;
+    scroll-behavior: smooth;
+    padding-left: 50px;
+    padding-right: 150px;
+    font-size: 30px;
+}
+
+p {
+    padding-left: 50px;
+}
+
+h1 {
+    color: yellow;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: yellow;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #d2d2d2;
+}
+
+h3 {
+    color: yellow;
+    margin-left: 50px
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    border: 5px solid black;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+    color: yellow;
+    background-color: black;
+    border: 5px solid yellow;
+
+}
+
+.menulink {
+    background-color: yellow;
+    padding: 15px;
+    color: black;
+    border: 10px solid yellow;
+}
+
+.menulink:hover, .menulink:focus {
+    background-color: black;
+    color: yellow;
+    border: 10px solid yellow;
+    text-decoration: none;
+}
+
+.navitems {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navitem {
+    list-style-type: none;
+    transition: all 0.3s ease;
+    color: black;
+    margin: 50px;
+}
+
+.navitem:hover, .navitem:focus {
+    transition: all 0.3s ease;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color:black;
+    border: 10px solid yellow;
+    padding: 10px;
+    color: yellow;
+}
+
+li { 
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:768px) {
+    html {
+        padding-right: 20px;
+        padding-left: 10px;
+    }
+
+    .navitems {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-left: 10px;
+    }
+
+    .navitem {
+        margin-bottom: 25px;
+    }
+
+    p {
+        padding-left: 10px;
+    }
+
+    h1 {
+        margin-left: 10px;
+        padding: 0px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    h2 {
+        margin-left: 10px
+    }
+
+    h3 {
+        margin-left: 10px
+    }
+}
+
+.footerbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#backtotopbutton {
+    max-width: 100px;
+    margin-bottom: 10px;
+    background-color: yellow;
+    padding: 10px;
+    color: black;
+    border: 10px solid black;
+}
+
+#backtotopbutton:hover, #backtotopbutton:focus {
+    background-color: black;
+    color: yellow;
+    border: 10px solid yellow;
+    text-decoration: none;
+}
